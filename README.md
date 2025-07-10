@@ -118,7 +118,76 @@ I next edited the config file so snort knew to use our new rule everytime withou
 
 !![Snort-Project21 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2021%20-%20Setting%20up%20snorts%20configuration%20file%20so%20it%20knows%20where%20to%2)
 
+As you can see, the new rule is alot shorter.
+
+!![Snort-Project22 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2022%20-%20New%20rule%20-%20alot%20shorter.PNG)
+
 ## Step 16 
+
+After another test using ping, we can see our new rule works. 
+
+!![Snort-Project23 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2023%20-%20ICMP%20rule%20working.PNG)
+
+
+## Step 17 
+
+I then wanted to install pulled pork which is a rule set for snort 3. This would install multiple rules into our snort for detection of malicious or suspicious activity. 
+
+!![Snort-Project24 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2024%20-%20Installed%20pulled%20pork.PNG)
+
+## Step 18 
+
+Now it was time to edit the config file of pulled pork, using sudo nano - I edited the config file to select the rule set we wanted to use. I decided to use the regestired rule set so I set the option from "false" to "true". 
+I also had to go over to the snort site and create an account to generate my oinkcode which is essesntially, our API key.
+
+!![Snort-Project25 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2025%20-%20Selecting%20desired%20ruleset%20and%20getting%20oinkcode%20)
+
+## Step 19 
+
+When editing the config, I did run into errors when trying to edit the new rule. The error pointed me over to the pulledpork.py file which is a python file. The error was that the version of pulledpork was unspecified ( left blank ) so afgter going over to the site I was able to get the version number and fix this error. 
+
+After all that, as you can see - Snort was running with our selected rule set with no errors. 
+
+!![Snort-Project26 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2026%20-%20New%20message%2C%20no%20error.PNG)
+
+
+## Step 20 
+
+Now it was time to see if our work paid off, I started an instance of snort with our new pulled pork rules and I was relieved to see that it ran with no errors. 
+
+
+!![Snort-Project27 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2027%20-%20Running%20snort%20with%20pulled%20porks%20rules.PNG)
+
+## Step 21 
+
+I then wanted to see how our new rules would work when analysising a pcap. So I got a pcap file with knwon malicious activity inside it from the malware-analysis website. I couldnt recommend this website 
+enough as there is a lot of exercises and pcaps to use for projects. 
+
+!![Snort-Project28 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2028%20-%20Installing%20packet%20capture%20exercise.PNG)
+
+## Step 22 
+
+I then opened our pcap in snort with our new pulled pork rules and saved that out as a .txt file. I did this so we could cut the file down to what we wanted to see as there was a lot of 
+information to parse through. 
+
+!![Snort-Project29 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2029%20-%20Viewing%20pcap%20in%20snort%20using%20pulled%20porks%20rules%20in%20snort%20%26%20saving%20as%20a%20text%20file.PNG)
+
+
+Now with the commands below, we can see this information alot clearer. It was clear to see how well snort worked with the installed pulled pork rules. We can even see how many times the dtected rules 
+picked up a certain malicious activity as you can see below. 
+
+!![Snort-Project30 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2030%20-%20After%20cutting%20the%20packet%20capture%20to%20get%20more%20readable%20results.PNG)
+
+
+## Conclusion 
+
+I really enjoyed working on this project, as it familiarized me with how IDS systems work and how useful they can be when configured correctly. I also learned a lot from the troubleshooting process when things weren’t going as planned. This project required a great deal of research and due diligence on my part, as some fixes led me away from the Snort-specific tasks and taught me a lot about how to troubleshoot effectively in a Bash environment.
+
+Thanks for taking the time to view my project - 
+
+Joseph W. 
+
+
 
 
 
