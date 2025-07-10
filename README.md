@@ -1,8 +1,9 @@
 ## Project Overview 
-Welcome to my project. In this project I successfully configured a working instance of snort and added a ruleset form pulled pork. In case you didn,t know, Snort is an open source IDS/IPS sustem (depending on how it is deployed), but here I used it 
-as an IDS system to parse through a known malicious pcap to detect malicous activity. This project further expanded my knowledge of IDS systems and made me realise how useful they could be in a real world environment. 
-Thanks for viewing my project and please see how I did this below! 
+Welcome to my project! In this project, I successfully configured a working instance of Snort and added a ruleset using PulledPork. In case you're not familiar, Snort is an open-source IDS/IPS system (depending on how it is deployed). In this case, I used it as an Intrusion Detection System (IDS) to parse a known malicious PCAP file and detect suspicious activity.
 
+This project further expanded my knowledge of IDS tools and helped me understand their value in real-world security environments.
+
+Thank you for checking out my project, please see below for the details of how I set it up!
 
 
 
