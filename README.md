@@ -25,17 +25,53 @@ Then, I had to install some prerequisites in order for snort to work correctly a
 
 ![Snort-Project5 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%205%20-%20Installing%20ragel.PNG)
 
-This also included locating and installing the newest C ++ libraries. 
+This also included locating and installing the newest C ++ libraries. From my understanding, snort is written primarily in C but has some dependancies that rely on c ++ libraries, makiung this a vital step for snort to
+function correctly. 
 
 ![Snort-Project6 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%206%20-%20Locationg%20boost%20c%2B%2B%20library.PNG)
 
 
-
-
-
-
-
-
-
 ## Step 4. 
+
+Next it was time to make a new directory for hyperscan. Hyperscan is a high speed regex matching engine that is used by snort for rule matching. 
+
+![Snort-Project7 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%207%20-%20Making%20a%20new%20directory%20for%20hyperscan.PNG)
+
+## Step 5. 
+
+Then, I ensured that are boost libraries were installed into hyperscan. 
+
+![Snort-Project8 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%208%20-installing%20c%2B%2B%20libraries%20into%20hyperscan.PNG)
+
+## Step 6. 
+
+Next, it was time to make a new directory for hyperbuffers. Hyperbuffers is used in snort as an internal data structure which is used for efficient packet processing. 
+
+!![Snort-Project9 ](https://github.com/JWALL000/Snort-Project/blob/main/Step-9%20Making%20a%20new%20directory%20for%20flatbuffers.PNG)
+
+## Step 7. 
+
+After that, it was time to start installing snort - I went over to the snort website to get instructions for this. 
+
+!![Snort-Project10 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2010%20-%20Getting%20instructions%20from%20the%20snort%20website.PNG)
+
+## Step 8. 
+
+Now snort was installed, It was time to configure it. 
+
+!![Snort-Project11 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2011%20-%20Configuring%20snort%203.PNG)
+
+## Step 9. 
+
+After a lot of troublshooting, snort was now up and runnning - My main issue is that my usr/bin library was somehow in the wrong order so the binary for snort couldnt be found, after changing the $PATH, the issue was resolved and snort was running as expected. 
+
+!![Snort-Project12 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2012%20-%20Snort%20finally%20up%20and%20running%20after%20troubleshooting.PNG)
+
+
+
+
+
+
+
+
 
