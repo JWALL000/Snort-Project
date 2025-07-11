@@ -9,7 +9,7 @@ Thank you for checking out my project, please see below for the details of how I
 
 In this step I started by SSH'ing into my ubuntu server, I do this because I find it easier to work from PowerShell on my host as I find it generally more user friendly. 
 
-![Snort Project1 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%201%20-%20Welcome%20to%20my%20project%20-%20SSHing%20into%20ubuntu%20server.PNG)
+![Snort-Project1 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%201%20-%20Welcome%20to%20my%20project%20-%20SSHing%20into%20ubuntu%20server.PNG)
 
 ## Step 2
 
@@ -46,13 +46,13 @@ Then, I ensured that the Boost libraries were installed into Hyperscan.
 
 Next, it was time to make a new directory for Hyperbuffers. Hyperbuffers are used in snort as an internal data structure used for efficient packet processing. 
 
-!![Snort-Project9 ](https://github.com/JWALL000/Snort-Project/blob/main/Step-9%20Making%20a%20new%20directory%20for%20flatbuffers.PNG)
+![Snort-Project9 ](https://github.com/JWALL000/Snort-Project/blob/main/Step-9%20Making%20a%20new%20directory%20for%20flatbuffers.PNG)
 
 ## Step 7
 
 After that, it was time to start installing Snort - I went over to the snort website to get instructions for this. 
 
-!![Snort-Project10 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2010%20-%20Getting%20instructions%20from%20the%20snort%20website.PNG)
+![Snort-Project10 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2010%20-%20Getting%20instructions%20from%20the%20snort%20website.PNG)
 
 ## Step 8 
 
