@@ -115,7 +115,7 @@ With snort listening in for ICMP traffic, I decided to test our rule to see if i
 
 I next edited the config file so snort knew to use our new rule every time without specifying. 
 
-![Snort-Project21 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2021%20-%20Setting%20up%20snorts%20configuration%20file%20so%20it%20knows%20where%20to%2)
+![Snort-Project21 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2021%20-%20Setting%20up%20snorts%20configuration%20file%20so%20it%20knows%20where%20to%20look%20for%20our%20custom%20rule%20everytime%20without%20have%20to%20specify.PNG)
 
 As you can see, the new rule is a lot shorter.
 
