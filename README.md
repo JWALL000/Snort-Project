@@ -9,7 +9,7 @@ Thank you for checking out my project, please see below for the details of how I
 
 In this step I started by SSH'ing into my ubuntu server, I do this because I find it easier to work from PowerShell on my host as I find it generally more user friendly. 
 
-![Snort-Project1 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%201%20-%20Welcome%20to%20my%20project%20-%20SSHing%20into%20ubuntu%20server.PNG)
+![Snort Project1 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%201%20-%20Welcome%20to%20my%20project%20-%20SSHing%20into%20ubuntu%20server.PNG)
 
 ## Step 2
 
