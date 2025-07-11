@@ -143,7 +143,7 @@ I also had to go over to the Snort site and create an account to generate my oin
 
 ## Step 19 
 
-When editing the config, I did run into errors when trying to edit the new rule. The error pointed me over to the pulledpork.py file which is a python file. The error was that the version of PulledPork was unspecified ( left blank ) so after going over to the site I was able to get the version number and fix this error. 
+When editing the config, I did run into errors when trying to edit the new rule. The error pointed me over to the pulledpork.py file which is a python file. The error was that the version of Snort rules was unspecified ( left blank ) so after going over to the site I was able to get the version number and fix this error. 
 
 After all that, as you can see - Snort was running with our selected rule set with no errors. 
 
