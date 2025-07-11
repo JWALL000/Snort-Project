@@ -139,7 +139,7 @@ I then wanted to install PulledPork which is a ruleset for snort 3. This would i
 Now it was time to edit the config file of PulledPork, using sudo nano - I edited the config file to select the rule set we wanted to use. I decided to use the registired rule set so I set the option from "false" to "true". 
 I also had to go over to the Snort site and create an account to generate my oinkcode which is essentially, our API key.
 
-![Snort-Project25 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2025%20-%20Selecting%20desired%20ruleset%20and%20getting%20oinkcode%20)
+![Snort-Project25 ](https://github.com/JWALL000/Snort-Project/blob/main/Step%2025%20-%20Selecting%20desired%20ruleset%20and%20getting%20oinkcode%20from%20snorts%20site.PNG)
 
 ## Step 19 
 
